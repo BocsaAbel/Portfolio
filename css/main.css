@@ -51,6 +51,12 @@ nav a {
     font-weight: bold;
 }
 
+nav a:hover {
+    background-color: #6D0808;
+    color: #fffaf3;
+    border-color: #fffaf3;
+}
+
 img{
     max-width: 100%;
     display: block;
