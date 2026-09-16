@@ -49,6 +49,7 @@ nav a {
     color: #6D0808;
     text-decoration: none;
     font-weight: bold;
+    border-radius: 7%;
 }
 
 nav a:hover {
