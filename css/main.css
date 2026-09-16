@@ -62,25 +62,6 @@ img{
     display: block;
 }
 
-.bemutatkozas-tartalom {
-    display: flex;
-    align-items: flex-start;
-    gap: 40px;
-}
-
-.bemutatkozas-tartalom p {
-    flex: 1 1 55%;
-    max-width: 650px;
-    margin: 0;
-}
-
-.bemutatkozas-kep{
-    flex: 1 1 40%;
-    max-width: 380px;
-    border-radius: 16px;
-    border: 3px solid #4a0606;
-}
-
 .szakasz {
     max-width: 1200px;
     margin: 0 auto;
@@ -103,3 +84,50 @@ img{
     border: 2px solid #4A0606;
 }
 
+.bemutatkozas-tartalom {
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.bemutatkozas-tartalom p {
+    flex: 1 1 55%;
+    max-width: 650px;
+    margin: 0;
+}
+
+.bemutatkozas-kep{
+    flex: 1 1 40%;
+    max-width: 380px;
+    border-radius: 16px;
+    border: 3px solid #4a0606;
+}
+
+
+.keszsegek-racs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    max-width: 720px;
+    margin: 0 auto;
+}
+
+.keszseg-kartya {
+    height: 140px;
+    background-color: #6D0808;
+    color: #FFFAF3;
+    border-radius: 16px;
+    border: 2px solid #4A0606;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 15px;
+    font-family: "Alata", sans-serif;
+    transition: 0.2s;
+}
+
+.keszseg-kartya:hover {
+    background-color: #4A0606;
+    transform: translateY(-4px);
+}
