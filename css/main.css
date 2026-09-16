@@ -132,3 +132,50 @@ img{
     background-color: #4A0606;
     transform: translateY(-4px);
 }
+
+.projekt-lista {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.projekt-kartya {
+    display: flex;
+    gap: 25px;
+    background-color: #4A0606;
+    color: #FFFAF3;
+    border-radius: 16px;
+    border: 2px solid #6D0808;
+    padding: 22px;
+    transition: 0.2s;
+}
+
+.projekt-kartya:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 18px rgba(0,0,0,0.25);
+}
+
+
+.projekt-kep {
+    width: 240px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 10px;
+    flex-shrink: 0;
+}
+
+.projekt-szoveg {
+    flex: 1 1 auto;
+    max-width: 600px;
+}
+
+.projekt-szoveg h3 {
+    margin: 0 0 8px 0;
+    font-size: 18px;
+}
+
+.projekt-szoveg p {
+    margin: 0;
+    font-size: 15px;
+    opacity: 0.95;
+}
