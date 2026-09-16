@@ -179,3 +179,22 @@ img{
     font-size: 15px;
     opacity: 0.95;
 }
+
+.Kapcsolat-lista{
+    margin: 0 auto;
+    padding: 0;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.Kapcsolat-elem{
+    background-color: #6D0808;
+    color: #fffaf3;
+    text-align: center;
+    padding: 14px 22px;
+    border-radius: 10px;
+    border:  2px solid #4a0606;
+    font-weight: bold;
+}
