@@ -81,3 +81,25 @@ img{
     border: 3px solid #4a0606;
 }
 
+.szakasz {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 20px;
+}
+
+.cimke-tarto {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.cimke {
+    display: inline-block;
+    background-color: #6D0808;
+    color: #FFFAF3;
+    font-size: 18px;
+    margin: 0;
+    padding: 12px 35px;
+    border-radius: 10px;
+    border: 2px solid #4A0606;
+}
+
