@@ -52,6 +52,7 @@ nav a {
     text-decoration: none;
     font-weight: bold;
     border-radius: 7%;
+    width: 120px;
 }
 
 nav a:hover {
